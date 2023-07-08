@@ -1,0 +1,98 @@
+/* manjiri ingole */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    background-image: url("https://th.bing.com/th/id/R.d27a75afeb64a5770c092a6d23c62954?rik=UbcbEkXQLzPZfw&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2f5%2fa%2f7%2f165895.jpg&ehk=fZ9iMXtHmGY0c%2brm2h13nOK6n1O%2fPhGyGnid0O0abdA%3d&risl=&pid=ImgRaw&r=0");
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+
+header {
+    margin-bottom: 40px;
+}
+
+.top-menu {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    margin: 0;
+    padding: 10px 0;
+    background-color: black;
+    color: #ffffff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.top-menu li {
+    margin-left: 20px;
+}
+
+.top-menu li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+h1 {
+    color: #ffffff;
+    font-size: 58px;
+    margin-bottom: 20px;
+}
+
+.logo {
+    font-size: 32px;
+    position: absolute;
+    top: calc(-1ch - 10px); 
+    left: 10px; 
+    color: white; 
+    z-index: 2;
+}
+
+section {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 40px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: white;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+footer {
+    color: #ffffff;
+    font-size: 14px;
+    padding: 20px;
+}
